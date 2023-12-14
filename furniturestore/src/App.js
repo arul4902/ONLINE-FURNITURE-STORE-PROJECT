@@ -1,8 +1,8 @@
 import React from 'react';
 import {BrowserRouter,Link,Routes,Route} from "react-router-dom";
-import Login from './Components/LoginPage';
+import Login from './LoginForm/LoginPage';
 import Navigate from './Components/Navigate';
-import SignUpForm from './Components/SignUp';
+import SignUpForm from './SignUpForm/SignUp';
 function App() {
   return (
     <div className="App">
