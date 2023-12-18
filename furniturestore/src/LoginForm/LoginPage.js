@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import './LoginPage.css';
 
 const Login = () => {
@@ -15,7 +15,7 @@ const Login = () => {
         <h4>Not a Member?</h4>
         
       </form>
-      <Link to='./SignUpForm'>Sign Up</Link>
+      <button>Sign up</button>
     </div>
   );
 };

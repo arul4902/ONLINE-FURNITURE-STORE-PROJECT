@@ -2,7 +2,7 @@
     body {
         margin: 0;
         padding: 0;
-        background-image: url("D:/Online Furniture Store/furniturestore/src/Components/furni2-transformed.jpeg"); /* Replace with the actual path to your image */
+        background-image: url("D:/Online Furniture Store/furniturestore/src/Assets/furni2-transformed.jpeg"); /* Replace with the actual path to your image */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -10,6 +10,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        backdrop-filter: blur(100%);
       }
 
 .form-container {
@@ -57,4 +58,8 @@
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+}
+.button:hover
+{
+  background-color: #0b0606;
 }

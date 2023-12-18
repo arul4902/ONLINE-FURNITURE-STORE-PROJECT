@@ -8,7 +8,7 @@
     text-align: center;
     margin-right: 20cm;
     margin-top: 1cm;
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(100%);
   }
   
   .login-container h1 {
@@ -41,12 +41,15 @@
     border-radius: 4px;
     cursor: pointer;
   }
+  .login-container button:hover{
+    background-color: #0b0606;
+  }
 
 body
  {
     margin: 0;
     padding: 0;
-    background-image: url("D:/Online Furniture Store/furniturestore/src/Components/furni1-transformed.jpeg"); /* Replace with the actual path to your image */
+    background-image: url("D:/Online Furniture Store/furniturestore/src/Assets/furni1-transformed.jpeg"); /* Replace with the actual path to your image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

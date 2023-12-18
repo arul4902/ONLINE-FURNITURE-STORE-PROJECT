@@ -1,7 +1,9 @@
 
 import React from 'react';
-import SignUp from './SignUp';
-//import LoginPage from './LoginPage';
+//import SignUp from './SignUpForm/SignUp';
+
+import LoginPage from './LoginForm/LoginPage';
+
 
 
 const App = () => {
@@ -9,7 +11,7 @@ const App = () => {
     
     <div>
       
-      <SignUp/>
+      <LoginPage/>
     </div>
   );
 };
